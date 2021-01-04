@@ -1,0 +1,145 @@
+2020-09-17 17:04:30.835  INFO 13808 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.1.1
+	Build:          1075
+	Build time:     13.07.2020 09:09:23 UTC
+	Branch          master
+	Commit:         f6a1a2a
+	Commit time:    13.07.2020 09:04:37 UTC
+	JVM:            11.0.7
+	Lavaplayer      1.3.50
+
+2020-09-17 17:04:31.396  INFO 13808 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-ND8UIOE with PID 13808 (D:\PROJECTS\Java Codings\Kongou-master\server\Lavalink.jar started by Sattish in D:\PROJECTS\Java Codings\Kongou-master\server)
+2020-09-17 17:04:31.401  INFO 13808 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-09-17 17:04:31.504  WARN 13808 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-17 17:04:37.763  WARN 13808 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-09-17 17:04:37.883  INFO 13808 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-09-17 17:04:37.884  INFO 13808 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6360 ms
+2020-09-17 17:04:39.477  WARN 13808 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-09-17 17:04:39.503  INFO 13808 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2020-09-17 17:04:39.504  INFO 13808 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-09-17 17:04:39.504  INFO 13808 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-09-17 17:04:39.505  INFO 13808 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-09-17 17:04:42.739  INFO 13808 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-09-17 17:04:44.155  INFO 13808 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-17 17:04:44.661  INFO 13808 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-09-17 17:04:44.680  INFO 13808 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-09-17 17:04:44.833  INFO 13808 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2020-09-17 17:04:44.858  INFO 13808 --- [main] lavalink.server.Launcher                 : Started Launcher in 15.81 seconds (JVM running for 18.859)
+2020-09-17 17:06:34.903  INFO 13808 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-17 17:06:34.904  INFO 13808 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-17 17:06:34.911  INFO 13808 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-09-17 17:06:34.971  INFO 13808 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59329
+2020-09-17 17:06:35.264  INFO 13808 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59329
+2020-09-17 17:06:35.303  INFO 13808 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op":"configureResuming","key":"resumableKongou","timeout":30}
+2020-09-17 17:06:59.358  INFO 13808 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-09-17 17:07:01.328  INFO 13808 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: live like this quadeca
+2020-09-17 17:07:01.861  INFO 13808 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"754409840981442572","sessionId":"24c6ca394ae10bc2aa6cc1a61469ab9b","event":{"endpoint":"singapore3183.discord.media:80","guild_id":"754409840981442572","token":"0b5d1b37882364ac"}}
+2020-09-17 17:07:01.953  INFO 13808 --- [parallel-2] com.jcabi.manifests.Manifests            : 73 attributes loaded from 84 stream(s) in 53ms, 73 saved, 1240 ignored: ["Ant-Version", "Archiver-Version", "Automatic-Module-Name", "Bnd-LastModified", "Build-Jdk", "Build-Jdk-Spec", "Build-Time", "Built-By", "Bundle-ActivationPolicy", "Bundle-Activator", "Bundle-Category", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-NativeCode", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Copyright", "Created-By", "Export-Package", "Extension-Name", "Git-Revision", "Implementation-Build", "Implementation-Build-Date", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Jar-Name", "Jar-Version", "Java-Vendor", "Java-Version", "Kotlin-Runtime-Component", "Kotlin-Version", "Log4jReleaseKey", "Log4jReleaseManager", "Log4jReleaseVersion", "Magma-Version", "Main-Class", "Manifest-Version", "Multi-Release", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Private-Package", "Provide-Capability", "Require-Bundle", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Spring-Boot-Classes", "Spring-Boot-Lib", "Spring-Boot-Version", "Start-Class", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+2020-09-17 17:07:02.227  INFO 13808 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op":"play","guildId":"754409840981442572","track":"QAAAhAIAGFFVQURFQ0EgLSBMSVZFIExJS0UgVEhJUwASUXVhZGVjYSBFeGNsdXNpdmVzAAAAAAACcQAAC2pBLWp0REtxNW1ZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9akEtanRES3E1bVkAB3lvdXR1YmUAAAAAAAAAAA==","noReplace":true}
+2020-09-17 17:09:43.630  INFO 13808 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"754409840981442572"}
+2020-09-17 17:18:33.748  INFO 13808 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59329 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 30 seconds with key resumableKongou
+2020-09-17 17:18:40.759  INFO 13808 --- [XNIO-1 task-4] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59450
+2020-09-17 17:18:40.777  INFO 13808 --- [XNIO-1 task-4] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59450
+2020-09-17 17:18:40.779  INFO 13808 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"configureResuming","key":"resumableKongou","timeout":30}
+2020-09-17 17:19:03.762  INFO 13808 --- [pool-3-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-09-17 17:19:27.418  INFO 13808 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59450 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 30 seconds with key resumableKongou
+2020-09-17 17:19:34.706  INFO 13808 --- [XNIO-1 task-5] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59463
+2020-09-17 17:19:34.725  INFO 13808 --- [XNIO-1 task-5] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59463
+2020-09-17 17:19:34.726  INFO 13808 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"configureResuming","key":"resumableKongou","timeout":30}
+2020-09-17 17:19:57.419  INFO 13808 --- [pool-6-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-09-17 17:21:02.372  INFO 13808 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59463 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 30 seconds with key resumableKongou
+2020-09-17 17:21:19.886  INFO 13808 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59477
+2020-09-17 17:21:19.895  INFO 13808 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59477
+2020-09-17 17:21:19.898  INFO 13808 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"configureResuming","key":"resumableKongou","timeout":30}
+2020-09-17 17:21:32.380  INFO 13808 --- [pool-7-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-09-17 17:22:05.723  INFO 13808 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59477 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 30 seconds with key resumableKongou
+2020-09-17 17:22:12.798  INFO 13808 --- [XNIO-1 task-7] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59490
+2020-09-17 17:22:12.829  INFO 13808 --- [XNIO-1 task-7] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59490
+2020-09-17 17:22:12.839  INFO 13808 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"configureResuming","key":"resumableKongou","timeout":30}
+2020-09-17 17:22:35.730  INFO 13808 --- [pool-8-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-09-17 17:24:25.725  INFO 13808 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59490 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 30 seconds with key resumableKongou
+2020-09-17 17:24:55.733  INFO 13808 --- [pool-9-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-09-17 17:26:10.918  INFO 13808 --- [XNIO-1 task-8] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59528
+2020-09-17 17:26:10.937  INFO 13808 --- [XNIO-1 task-8] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59528
+2020-09-17 17:26:10.938  INFO 13808 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"configureResuming","key":"resumableKongou","timeout":30}
+2020-09-17 17:26:28.143  INFO 13808 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59528 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 30 seconds with key resumableKongou
+2020-09-17 17:26:35.860  INFO 13808 --- [XNIO-1 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:59537
+2020-09-17 17:26:35.879  INFO 13808 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:59537
+2020-09-17 17:26:35.881  INFO 13808 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op":"configureResuming","key":"resumableKongou","timeout":30}
+2020-09-17 17:26:58.152  INFO 13808 --- [pool-10-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-09-17 17:33:30.832  INFO 13808 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:59537 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 30 seconds with key resumableKongou
+2020-09-17 17:34:00.848  INFO 13808 --- [pool-11-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-09-17 18:43:12.417  INFO 952 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.1.1
+	Build:          1075
+	Build time:     13.07.2020 09:09:23 UTC
+	Branch          master
+	Commit:         f6a1a2a
+	Commit time:    13.07.2020 09:04:37 UTC
+	JVM:            11.0.7
+	Lavaplayer      1.3.50
+
+2020-09-17 18:43:12.615  WARN 952 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-09-17 18:43:12.626  INFO 952 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-ND8UIOE with PID 952 (D:\PROJECTS\Java Codings\Kongou-master\server\Lavalink.jar started by Sattish in D:\PROJECTS\Java Codings\Kongou-master\server)
+2020-09-17 18:43:12.635  INFO 952 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-09-17 18:43:14.397  WARN 952 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-09-17 18:43:14.457  INFO 952 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-09-17 18:43:14.458  INFO 952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1761 ms
+2020-09-17 18:43:15.218  WARN 952 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-09-17 18:43:15.279  INFO 952 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2020-09-17 18:43:15.280  INFO 952 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-09-17 18:43:15.280  INFO 952 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-09-17 18:43:15.281  INFO 952 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-09-17 18:43:16.748  INFO 952 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-09-17 18:43:17.668  INFO 952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-17 18:43:18.309  INFO 952 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-09-17 18:43:18.343  INFO 952 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-09-17 18:43:18.603  INFO 952 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2020-09-17 18:43:18.630  INFO 952 --- [main] lavalink.server.Launcher                 : Started Launcher in 6.749 seconds (JVM running for 7.309)
+2020-09-17 18:43:36.800  INFO 952 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-17 18:43:36.801  INFO 952 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-17 18:43:36.823  INFO 952 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2020-09-17 18:43:36.874  INFO 952 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60416
+2020-09-17 18:43:37.235  INFO 952 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:60416
+2020-09-17 18:43:37.282  INFO 952 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"configureResuming","key":"resumableKongou","timeout":30}
+2020-09-17 18:44:08.187  INFO 952 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-09-17 18:44:10.174  INFO 952 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: twerking ball Miley cyrus
+2020-09-17 18:44:10.744  INFO 952 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"754409840981442572","sessionId":"4462c9dde0a5725671c0dcb329fbeae7","event":{"endpoint":"singapore740.discord.media:80","guild_id":"754409840981442572","token":"4a34870c472ac847"}}
+2020-09-17 18:44:10.831  INFO 952 --- [parallel-2] com.jcabi.manifests.Manifests            : 73 attributes loaded from 84 stream(s) in 34ms, 73 saved, 1240 ignored: ["Ant-Version", "Archiver-Version", "Automatic-Module-Name", "Bnd-LastModified", "Build-Jdk", "Build-Jdk-Spec", "Build-Time", "Built-By", "Bundle-ActivationPolicy", "Bundle-Activator", "Bundle-Category", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-NativeCode", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Copyright", "Created-By", "Export-Package", "Extension-Name", "Git-Revision", "Implementation-Build", "Implementation-Build-Date", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Jar-Name", "Jar-Version", "Java-Vendor", "Java-Version", "Kotlin-Runtime-Component", "Kotlin-Version", "Log4jReleaseKey", "Log4jReleaseManager", "Log4jReleaseVersion", "Magma-Version", "Main-Class", "Manifest-Version", "Multi-Release", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Private-Package", "Provide-Capability", "Require-Bundle", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Spring-Boot-Classes", "Spring-Boot-Lib", "Spring-Boot-Version", "Start-Class", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+2020-09-17 18:44:11.598  INFO 952 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"754409840981442572","track":"QAAAkQIALE1pbGV5IEN5cnVzIC0gV3JlY2tpbmcgQmFsbCAoT2ZmaWNpYWwgVmlkZW8pAAtNaWxleSBDeXJ1cwAAAAAAA2MwAAtNeTJGUlBBM0dmOAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU15MkZSUEEzR2Y4AAd5b3V0dWJlAAAAAAAAAAA=","noReplace":true}
+2020-09-17 18:44:19.994  INFO 952 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-09-17 18:44:20.641  INFO 952 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ksi lamborgini
+2020-09-17 18:46:31.326  INFO 952 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"754409840981442572","volume":20}
+2020-09-17 18:46:31.351  INFO 952 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$623/0x00000001007fc840@4a6afe40
+2020-09-17 18:46:31.430  INFO 952 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2020-09-17 18:46:31.431  INFO 952 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2020-09-17 18:46:31.567  INFO 952 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2020-09-17 18:47:44.587  INFO 952 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"754409840981442572"}
+2020-09-17 18:47:44.590  INFO 952 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"754409840981442572"}
+2020-09-17 18:51:51.476  INFO 952 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:60416 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 30 seconds with key resumableKongou
+2020-09-17 18:52:21.487  INFO 952 --- [pool-2-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-09-17 19:04:11.174  INFO 952 --- [XNIO-1 task-6] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:60722
+2020-09-17 19:04:11.180  INFO 952 --- [XNIO-1 task-6] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:60722
+2020-09-17 19:04:11.183  INFO 952 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"configureResuming","key":"resumableKongou","timeout":30}
+2020-09-17 19:04:30.595  INFO 952 --- [XNIO-1 task-7] l.server.player.AudioLoaderRestHandler   : GET //loadtracks
+2020-09-17 19:04:31.140  INFO 952 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: safe and sound capital
+2020-09-17 19:04:31.651  INFO 952 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"463974875430912002","sessionId":"39be940ad0ac6ba918300e72f5852845","event":{"endpoint":"singapore355.discord.media:80","guild_id":"463974875430912002","token":"022459ebc664ac74"}}
+2020-09-17 19:04:32.136  INFO 952 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"play","guildId":"463974875430912002","track":"QAAAngIANkNhcGl0YWwgQ2l0aWVzIC0gU2FmZSBBbmQgU291bmQgKE9mZmljaWFsIE11c2ljIFZpZGVvKQAOQ2FwaXRhbCBDaXRpZXMAAAAAAAN2uAALNDdkdEZaOENGbzgAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj00N2R0Rlo4Q0ZvOAAHeW91dHViZQAAAAAAAAAA","noReplace":true}
+2020-09-17 19:07:07.846  INFO 952 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"463974875430912002"}
+2020-09-17 19:07:07.849  INFO 952 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"463974875430912002"}
